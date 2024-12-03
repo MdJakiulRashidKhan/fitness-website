@@ -1,0 +1,265 @@
+@media screen and (max-width:576px) {
+    header {
+        background-color: #000;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .nav-container, .link-container {
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+    }
+
+    .links {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .banner-desc{
+        font-size: 36px;
+    }
+    .btn-primary,.btn-bg-black{
+        padding: 12px 25px;
+    }
+    .btn-bg-black{
+        margin-left: 20px;
+    }
+    .banner {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .banner-text-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-img-container {
+        width: 40%;
+        margin: 20px;
+    }
+
+    .banner-img-container img {
+        width: 300px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .top-badge,.down-badge{
+        padding: 2px 4px;
+    }
+    
+    main section{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .habits-img-container{
+        flex-direction: column;
+    }
+    .run{
+        width: 100%;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .run-container{
+        width: 100%;
+    }
+    .run-img{
+        width: 80%;
+        height: 250px;
+    }
+    .training-img-container-one {
+        grid-template-columns: 1fr; 
+    }
+    .training-img {
+        margin-top: 20px;
+    }
+    .training-img-container-two{
+        grid-template-columns: 1fr;
+    }
+    .calculator-details-container {
+        flex-direction: column;
+    }
+    .calculator-container{
+        margin-left: 0px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .table-container,.calculator-details-container-text{
+        width:95% ;
+    }
+    .team-img-container{
+        grid-template-columns: 1fr;
+    }
+    .habits-title,.run-title,.training-title,.calculator-title,.team-title{
+        color: rgb(255, 255, 255);
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 120%;
+        letter-spacing: 0%;
+    }
+    .banner-desc,.habits-desc,.habits-img-desc,.run-desc,.training-desc,.calculator-desc,.calculator-details-container-desc,.team-desc,.footer-text-desc{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.5px; 
+    }
+    .team-trainer-name, .team-trainer-deg {
+        position: absolute; 
+        bottom: 10px; 
+        left: 40%;
+        transform: translateX(-50%); 
+        padding: 5px 10px; 
+        border-radius: 8px; 
+    }
+    .footer-container{
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    footer{
+        text-align: center;
+    }
+    .footer-text-title{
+        text-align: center;
+    }
+    hr{
+        width: 90%;
+    }
+}
+@media screen and (min-width:576px) and (max-width:992px){
+    header {
+        background-color: #000;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .nav-container, .link-container {
+        gap: 25px;
+    }
+
+    .links {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .banner-desc{
+        font-size: 36px;
+    }
+    .btn-primary,.btn-bg-black{
+        padding: 12px 25px;
+    }
+    .btn-bg-black{
+        margin-left: 20px;
+    }
+    .banner {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .banner-text-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-img-container {
+        width: 40%;
+        margin: 20px;
+    }
+
+    .banner-img-container img {
+        width: 300px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .top-badge,.down-badge{
+        padding: 2px 4px;
+    }
+    
+    main section{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .habits-img-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .run{
+        width: 100%;
+        margin: 0;
+        padding: 20px 0px;
+        gap: 0px;
+    }
+    .run-container{
+        width: 70%;
+    }
+    .run-img{
+        width: 100%;
+        height: 300px;
+    }
+    .training-img {
+        margin-top: 20px;
+    }
+    .calculator-details-container {
+        flex-direction: column;
+    }
+    .calculator-container{
+        margin-left: 0px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .table-container,.calculator-details-container-text{
+        width:95% ;
+    }
+    .team-img-container{
+        grid-template-columns:repeat(3,1fr);
+    }
+    .team-image{
+        width: 100%;
+        height: 272px;
+    }
+    .habits-title,.run-title,.training-title,.calculator-title,.team-title{
+        color: rgb(255, 255, 255);
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 120%;
+        letter-spacing: 0%;
+    }
+    .banner-desc,.habits-desc,.habits-img-desc,.run-desc,.training-desc,.calculator-desc,.calculator-details-container-desc,.team-desc,.footer-text-desc{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.5px; 
+    }
+    .team-trainer-name, .team-trainer-deg {
+        position: absolute; 
+        bottom: 10px; 
+        left: 40%;
+        transform: translateX(-50%); 
+        padding: 5px 10px; 
+        border-radius: 8px; 
+    }
+    footer{
+        text-align: center;
+    }
+    .footer-text-title{
+        text-align: center;
+    }
+    .footer-container{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .footer-text-container{
+        width: 100%;
+    }
+    hr{
+        width: 90%;
+    }
+}
