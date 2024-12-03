@@ -9,7 +9,7 @@ body{
     padding: 0;
 }
 header{
-    background: linear-gradient(180deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+    background: #111;
 }
 nav {
     margin-top: 20px;
